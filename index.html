@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Maquilleuse Professionnelle</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Police élégante pour le monde de la beauté -->
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barre de Navigation -->
+    <nav class="navbar">
+        <div class="logo">MUA.Beauty</div>
+        <ul class="nav-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#galerie">Portfolio</a></li>
+            <li><a href="#tarifs">Tarifs & Prestations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Accueil (Hero) -->
+    <header id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Sublimer Votre Beauté Unique</h1>
+            <p>Maquilleuse Professionnelle | Éditorial - Mariage - Événementiel</p>
+            <a href="#contact" class="btn">Réserver une séance</a>
+        </div>
+    </header>
+
+    <!-- Section Galerie (Images & Vidéos) -->
+    <section id="galerie" class="gallery-section">
+        <h2>Mon Travail en Images & Vidéos</h2>
+        <div class="gallery-grid">
+            
+            <!-- Exemple Image 1 -->
+            <div class="gallery-item">
+                <img src="images/makeup1.jpg" alt="Maquillage Mariée">
+                <div class="overlay"><h3>Maquillage Mariée</h3></div>
+            </div>
+
+            <!-- Exemple Vidéo (Avant/Après ou Backstage) -->
+            <div class="gallery-item video-item">
+                <video controls muted preload="metadata">
+                    <source src="videos/avant-apres.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas les vidéos.
+                </video>
+                <div class="video-label"><span>▶ Regarder le Look</span></div>
+            </div>
+
+            <!-- Exemple Image 2 -->
+            <div class="gallery-item">
+                <img src="images/makeup2.jpg" alt="Maquillage Soirée / Glam">
+                <div class="overlay"><h3>Glam de Soirée</h3></div>
+            </div>
+
+            <!-- Exemple Image 3 -->
+            <div class="gallery-item">
+                <img src="images/makeup3.jpg" alt="Maquillage Éditorial">
+                <div class="overlay"><h3>Éditorial & Mode</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Tarifs (Affiche Menu) -->
+    <section id="tarifs" class="pricing-section">
+        <h2>Tarifs & Prestations</h2>
+        <div class="pricing-container">
+            
+            <!-- Si vous avez une affiche en image, on la met ici à gauche -->
+            <div class="pricing-poster">
+                <img src="images/tarif-affiche.jpg" alt="Affiche des Tarifs MUA">
+            </div>
+
+            <!-- Version texte propre pour le référencement Google -->
+            <div class="pricing-list">
+                <div class="price-item">
+                    <h3>Maquillage Flash / Jour</h3>
+                    <span class="price">45 €</span>
+                    <p>Un teint frais et naturel pour vos rendez-vous professionnels.</p>
+                </div>
+                <div class="price-item">
+                    <h3>Glam Soirée & Événement</h3>
+                    <span class="price">75 €</span>
+                    <p>Faux-cils inclus, teint haute couvrance et regard intense.</p>
+                </div>
+                <div class="price-item">
+                    <h3>Forfait Mariée Premium</h3>
+                    <span class="price">190 €</span>
+                    <p>Comprend l'essai personnalisé, le maquillage du jour J et un kit de retouche.</p>
+                </div>
+                <div class="price-item">
+                    <h3>Cours d'Auto-Maquillage (2h)</h3>
+                    <span class="price">120 €</span>
+                    <p>Apprenez les techniques pros adaptées à la morphologie de votre visage.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact-section">
+        <h2>Prendre Rendez-vous</h2>
+        <p>Une question ? Un projet de shooting ? Écrivez-moi.</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Votre Nom" required>
+            <input type="email" placeholder="Votre E-mail" required>
+            <textarea placeholder="Décrivez votre projet de maquillage (Date, événement...)" rows="5" required></textarea>
+            <button type="submit" class="btn">Envoyer la demande</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2026 MUA.Beauty - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
